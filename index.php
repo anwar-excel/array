@@ -26,6 +26,33 @@ $person_info = ["Anwar Hosen","01888888","da@gmail.com"];
  echo "Person Email is".$person_info[1]."<br/>";
  echo "Person Cell is".$person_info[2]."<br/>";
 
+$product_info[0] = "Potato";
+$product_info[1] = 50;
+$product_info[2] = 2;
+$product_info[3] = "Store";
+
+var_dump($product_info);
+
+$product_count = count($product_info);
+
+echo $product_count."<br/>";
+
+echo $product_info[0]."<br/>";
+echo $product_info[1]."<br/>";
+echo $product_info[2]."<br/>";
+echo $product_info[3]."<br/>";
+
+for($i=0;$i <$product_count;$i++){
+
+    echo $product_info[$i];
+}
+
+// add more input field jquery;
+
+
+
+
+
 
 
 ?>
